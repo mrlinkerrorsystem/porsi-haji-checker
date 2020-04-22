@@ -1,0 +1,32 @@
+{
+    "name": "mrlinkerrorsystem/porsi-haji-checker",
+    "description": "Sebuah pustaka untuk mendapatkan informasi keberangkatan haji berdasarkan nomor porsi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pace Usa Gans",
+            "email": "developerpaceusa@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "developerpaceusa@gmail.com",
+        "source": "https://github.com/mrlinkerrorsystem/porsi-haji-checker"
+    },
+    "require": {
+        "php": "^5.5|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrlinkerrorsystem\\Kemenag\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mrlinkerrorsystem\\Kemenag\\Test\\": "tests/"
+        }
+    }
+}
